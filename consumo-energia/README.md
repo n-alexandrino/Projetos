@@ -1,24 +1,38 @@
 # Calculadora de Consumo de Energia
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![GitHub](https://img.shields.io/badge/GitHub-Repositório-black?logo=github)
-![Energia](https://img.shields.io/badge/Projeto-Consumo%20de%20Energia-yellow)
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Projeto-black?logo=github)
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
 
 ## Sobre o projeto
 
-Este projeto é uma calculadora de consumo de energia elétrica desenvolvida em Python.
+Projeto desenvolvido em **Python** para calcular o consumo mensal de energia elétrica de um aparelho.
 
-O objetivo é permitir que o usuário informe os dados de um aparelho elétrico e descubra uma estimativa de quanto ele consome de energia por mês.
+O usuário informa o nome do aparelho, a potência em watts e o tempo médio de uso diário. O programa calcula o consumo em **kWh/mês**, estima o custo mensal e classifica o consumo.
 
-O programa também calcula um custo mensal estimado considerando o valor de R$ 0,75 por kWh.
+## Cálculo
 
-## Tecnologia utilizada
+```text id="04vg6h"
+Consumo mensal = (Potência × Horas por dia × 30) / 1000
+```
 
-- Python
+O custo estimado considera o valor de **R$ 0,75 por kWh**.
 
-##  Fórmula utilizada
+## Como executar
 
-O consumo mensal é calculado utilizando a seguinte fórmula:
+No terminal do VS Code:
 
-```text
-consumoMensal = (potencia × horasDia × 30) / 1000
+```bash id="d46jsf"
+python app.py
+```
+
+## Tecnologias
+
+* Python
+* Git
+* GitHub
+
+## Autora
+
+**Nicolly Alexandrino**
+Estudante de curso técnico.
