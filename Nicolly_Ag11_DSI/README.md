@@ -9,7 +9,7 @@ O programa mostra os 5 níveis de água de um reservatório. Cada nível aparece
 Instalar a biblioteca:
 
 ```
-pip install colorama
+pip install -r requirements.txt
 ```
 
 Depois executar:
