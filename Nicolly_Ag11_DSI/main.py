@@ -11,7 +11,8 @@ def cor_do_nivel(nivel):
 
 
 def mostrar_nivel(nivel):
-    print(cor_do_nivel(nivel) + "Nível " + str(nivel) + ": " + niveis[nivel - 1] + Style.RESET_ALL)
+    mensagem = "Nível " + str(nivel) + ": " + niveis[nivel - 1]
+    print(cor_do_nivel(nivel) + mensagem + Style.RESET_ALL)
 
 
 print("Controle de níveis de água")
